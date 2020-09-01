@@ -4,3 +4,5 @@ sunny 95° Aug 27
 sunny 92° Aug 28
 passing clouds 86° Aug 29
 sunny 88° Aug 30
+partially sunny 69° Aug 31
+mostly sunny 86° Sept 1
