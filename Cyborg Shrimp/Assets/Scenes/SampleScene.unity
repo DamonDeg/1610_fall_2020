@@ -597,8 +597,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e28134573e77acd4291e47a501150ce9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  R: 0
-  isRotating: 0
+  thingPoint: 0
+  isDoinTheThing: 0
+  iHateThis: {x: 1, y: 1, z: 1}
 --- !u!1 &2054742158
 GameObject:
   m_ObjectHideFlags: 0
