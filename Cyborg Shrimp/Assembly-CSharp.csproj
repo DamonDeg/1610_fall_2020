@@ -62,6 +62,7 @@
      <Compile Include="Assets\Scripts\Info.cs" />
      <Compile Include="Assets\Scripts\PlayerHealth.cs" />
      <Compile Include="Assets\Scripts\PlayerScore.cs" />
+     <Compile Include="Assets\Scripts\PowerUp.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>S:/College/Fall 2020/class work/Scripting/GitKraken/1610_fall_2020/Cyborg Shrimp/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
