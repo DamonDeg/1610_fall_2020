@@ -6,6 +6,7 @@ using UnityEngine;
 public class CharacterMover : MonoBehaviour
 {
     public float thingPoint = 0f;
+    public float x, y, z;
 
     public bool isDoinTheThing = false;
     public Vector3 iHateThis = new Vector3(1f,1f,1f);
@@ -27,14 +28,19 @@ public class CharacterMover : MonoBehaviour
     void Update()
     {
 
-        if (isDoinTheThing)
+        x = Input.GetAxis("Horizontal");
+        y = Input.GetAxis("Vertical");
+
+            transform.Translate(x*Time.deltaTime,y*Time.deltaTime,z*Time.deltaTime);
+            
+        /*if (isDoinTheThing)
         {
             thingPoint = thingPoint + 1;
         }
 
         transform.Rotate(0, 0, thingPoint*Time.deltaTime);
         transform.localScale = new Vector3(1f + thingPoint * Time.deltaTime,1f,1f);
-        print("he doin' the thing! :D");
+        print("he doin' the thing! :D");*/
 
 
     }
