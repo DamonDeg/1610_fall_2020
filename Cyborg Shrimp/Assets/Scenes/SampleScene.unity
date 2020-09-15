@@ -597,7 +597,6 @@ GameObject:
   - component: {fileID: 1792736904}
   - component: {fileID: 1792736903}
   - component: {fileID: 1792736902}
-  - component: {fileID: 1792736901}
   - component: {fileID: 1792736906}
   - component: {fileID: 1792736907}
   m_Layer: 0
@@ -607,18 +606,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1792736901
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1792736900}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b91449893d0b0644bd1e9f152d359c3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &1792736902
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -627,7 +614,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1792736900}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
