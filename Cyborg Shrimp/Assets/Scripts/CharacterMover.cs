@@ -33,14 +33,14 @@ public class CharacterMover : MonoBehaviour
 
             transform.Translate(x*Time.deltaTime,y*Time.deltaTime,z*Time.deltaTime);
             
-        /*if (isDoinTheThing)
+        if (isDoinTheThing)
         {
             thingPoint = thingPoint + 1;
+            print("he doin' the thing! :D");
         }
 
         transform.Rotate(0, 0, thingPoint*Time.deltaTime);
-        transform.localScale = new Vector3(1f + thingPoint * Time.deltaTime,1f,1f);
-        print("he doin' the thing! :D");*/
+        transform.localScale = new Vector3(1f + thingPoint * Time.deltaTime, 1f, 1f);
 
 
     }
