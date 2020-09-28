@@ -6,11 +6,18 @@ using UnityEngine;
 public class CharacterMover : MonoBehaviour
 {
     public float thingPoint = 0f;
-    public float x, y, z;
-
     public bool isDoinTheThing = false;
-    public Vector3 iHateThis = new Vector3(1f,1f,1f);
+
     
+    
+    
+    public CharacterController controller;
+    public float moveSpeed = 5f, gravity = -9.81f, jumpForce = 10f;
+    
+    
+    private Vector3 moveDirection;
+    private float yDirection;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -25,22 +32,38 @@ public class CharacterMover : MonoBehaviour
     }
     
     // Update is called once per frame
-    void Update()
+    private void Update()
     {
+        var moveSpeedInput = moveSpeed * Input.GetAxis("Horizontal") * Time.deltaTime;
 
-        x = Input.GetAxis("Horizontal");
-        y = Input.GetAxis("Vertical");
+        yDirection += gravity * Time.deltaTime;
+        if (controller.isGrounded)
+        {
 
-            transform.Translate(x*Time.deltaTime,y*Time.deltaTime,z*Time.deltaTime);
+            yDirection = -0.1f;
             
+            if (Input.GetButtonDown("Jump"))
+            {
+
+                yDirection = jumpForce;
+
+            }
+
+        }
+
+        moveDirection.Set(moveSpeedInput,yDirection,0);
+        controller.Move(moveDirection);
+        
         if (isDoinTheThing)
         {
             thingPoint = thingPoint + 1;
             print("he doin' the thing! :D");
+            
+            transform.Rotate(0, 0, thingPoint*Time.deltaTime);
+            transform.localScale = new Vector3(1f + thingPoint * Time.deltaTime, 1f, 1f);
         }
 
-        transform.Rotate(0, 0, thingPoint*Time.deltaTime);
-        transform.localScale = new Vector3(1f + thingPoint * Time.deltaTime, 1f, 1f);
+        
 
 
     }
