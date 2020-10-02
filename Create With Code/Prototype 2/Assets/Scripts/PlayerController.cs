@@ -7,6 +7,8 @@ public class PlayerController : MonoBehaviour
     public CharacterController controller;
     public float playerSpeed = 5, boundaryLeft = -10, boundaryRight = 10;
     private Vector3 moveSpeed;
+
+    public GameObject projectilePrefab;
     // Start is called before the first frame update
     void Start()
     {
@@ -33,6 +35,14 @@ public class PlayerController : MonoBehaviour
         {
 
             transform.position = new Vector3(boundaryRight,0,0);
+
+        }
+        
+        //throw S T E A K
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+
+            Instantiate(projectilePrefab, transform.position, projectilePrefab.transform.rotation);
 
         }
 
