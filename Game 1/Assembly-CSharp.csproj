@@ -12,7 +12,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{26005786-6F87-D14A-9974-E2C6B23063D5}</ProjectGuid>
+    <ProjectGuid>{AA563F03-07B2-6387-8496-CBDFDD596598}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -58,38 +58,33 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\DestroyOutOfBounds.cs" />
-     <Compile Include="Assets\Scripts\DetectCollisions.cs" />
-     <Compile Include="Assets\Scripts\MoveForward.cs" />
-     <Compile Include="Assets\Scripts\PlayerController.cs" />
-     <Compile Include="Assets\Scripts\SpawnManager.cs" />
-     <None Include="Assets\Course Library\_Source_Files\_LICENSE.txt" />
+     <Compile Include="Assets\Scripts\PlayerMove.cs" />
  <Reference Include="Unity.Timeline.Editor">
- <HintPath>S:/College/Fall 2020/class work/Scripting/GitKraken/1610_fall_2020/Create With Code/Prototype 2/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ <HintPath>S:/College/Fall 2020/class work/Scripting/GitKraken/1610_fall_2020/Game 1/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VSCode.Editor">
- <HintPath>S:/College/Fall 2020/class work/Scripting/GitKraken/1610_fall_2020/Create With Code/Prototype 2/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+ <HintPath>S:/College/Fall 2020/class work/Scripting/GitKraken/1610_fall_2020/Game 1/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>S:/College/Fall 2020/class work/Scripting/GitKraken/1610_fall_2020/Create With Code/Prototype 2/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>S:/College/Fall 2020/class work/Scripting/GitKraken/1610_fall_2020/Game 1/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>S:/College/Fall 2020/class work/Scripting/GitKraken/1610_fall_2020/Create With Code/Prototype 2/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <HintPath>S:/College/Fall 2020/class work/Scripting/GitKraken/1610_fall_2020/Game 1/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline">
- <HintPath>S:/College/Fall 2020/class work/Scripting/GitKraken/1610_fall_2020/Create With Code/Prototype 2/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+ <HintPath>S:/College/Fall 2020/class work/Scripting/GitKraken/1610_fall_2020/Game 1/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
  </Reference>
  <Reference Include="Unity.CollabProxy.Editor">
- <HintPath>S:/College/Fall 2020/class work/Scripting/GitKraken/1610_fall_2020/Create With Code/Prototype 2/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+ <HintPath>S:/College/Fall 2020/class work/Scripting/GitKraken/1610_fall_2020/Game 1/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Rider.Editor">
- <HintPath>S:/College/Fall 2020/class work/Scripting/GitKraken/1610_fall_2020/Create With Code/Prototype 2/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+ <HintPath>S:/College/Fall 2020/class work/Scripting/GitKraken/1610_fall_2020/Game 1/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>S:/College/Fall 2020/class work/Scripting/GitKraken/1610_fall_2020/Create With Code/Prototype 2/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>S:/College/Fall 2020/class work/Scripting/GitKraken/1610_fall_2020/Game 1/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>S:/College/Fall 2020/class work/Scripting/GitKraken/1610_fall_2020/Create With Code/Prototype 2/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>S:/College/Fall 2020/class work/Scripting/GitKraken/1610_fall_2020/Game 1/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>S:/Programs/unity/Unity Hub/editor/2019.4.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
