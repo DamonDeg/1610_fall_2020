@@ -20,16 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c8a7886-cb51-4da5-adec-11de62121574" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Create With Code/Prototype 2/.idea/.idea.Prototype 2/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Create With Code/Prototype 2/.idea/.idea.Prototype 2/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Create With Code/Prototype 2/.idea/.idea.Prototype 2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Create With Code/Prototype 2/.idea/.idea.Prototype 2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Create With Code/Prototype 2/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../Create With Code/Prototype 2/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Create With Code/Prototype 2/Assets/Prefabs/Chicken.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/../Create With Code/Prototype 2/Assets/Prefabs/Chicken.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Create With Code/Prototype 2/Assets/Prefabs/Labrador.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/../Create With Code/Prototype 2/Assets/Prefabs/Labrador.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Create With Code/Prototype 2/Assets/Prefabs/Moose.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/../Create With Code/Prototype 2/Assets/Prefabs/Moose.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Create With Code/Prototype 2/Assets/Prefabs/Steak.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/../Create With Code/Prototype 2/Assets/Prefabs/Steak.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Create With Code/Prototype 2/Assets/Scenes/Prototype 2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../Create With Code/Prototype 2/Assets/Scenes/Prototype 2.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Create With Code/Prototype 2/Assets/Scripts/DestroyOutOfBounds.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Create With Code/Prototype 2/Assets/Scripts/DestroyOutOfBounds.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Create With Code/Prototype 2/Assets/Scripts/spawnManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Create With Code/Prototype 2/Assets/Scripts/spawnManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Game 1/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game 1/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Game 1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game 1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/DoTheFindTheYes.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/DoTheFindTheYes.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerMove.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerMove.cs.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +39,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMove.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Platformer.cs" />
       </list>
     </option>
   </component>
@@ -91,7 +88,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601700412238</updated>
-      <workItem from="1601700444857" duration="3250000" />
+      <workItem from="1601700444857" duration="11540000" />
     </task>
     <servers />
   </component>
