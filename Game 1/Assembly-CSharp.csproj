@@ -58,6 +58,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scriptable Objects\StatData.cs" />
+     <Compile Include="Assets\Scripts\CameraFollow.cs" />
+     <Compile Include="Assets\Scripts\CameraScript.cs" />
      <Compile Include="Assets\Scripts\Platformer.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>S:/College/Fall 2020/class work/Scripting/GitKraken/1610_fall_2020/Game 1/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
