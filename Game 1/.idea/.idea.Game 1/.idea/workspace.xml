@@ -21,9 +21,16 @@
   <component name="ChangeListManager">
     <list default="true" id="1c8a7886-cb51-4da5-adec-11de62121574" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Game 1/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game 1/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Game 1/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game 1/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Game 1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game 1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/DoTheFindTheYes.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/DoTheFindTheYes.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scriptable Objects/PlayerStats.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scriptable Objects/PlayerStats.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scriptable Objects/StatData.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scriptable Objects/StatData.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,15 +40,16 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scriptable Objects/StatData.cs" root0="FORCE_HIGHLIGHTING" />
-  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMove.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Platformer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CameraScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scriptable Objects/StatData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scriptable Objects/IntData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TriggerEventsBehavior.cs" />
       </list>
     </option>
   </component>
@@ -91,7 +99,8 @@
       <option name="presentableId" value="Default" />
       <updated>1601700412238</updated>
       <workItem from="1601700444857" duration="12429000" />
-      <workItem from="1602111823626" duration="4358000" />
+      <workItem from="1602111823626" duration="5003000" />
+      <workItem from="1602222954340" duration="4324000" />
     </task>
     <servers />
   </component>
