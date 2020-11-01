@@ -7,12 +7,17 @@ using Random = UnityEngine.Random;
 public class Target : MonoBehaviour
 {
     private Rigidbody targetRB;
-    
+    private GameManager gameManager;
+    public ParticleSystem explosionParticle;
+
+    public int pointValue;
+
     private float minSpeed=12, maxSpeed=16, maxTorque=10, xRange=4, ySpawnPos=-1;
     // Start is called before the first frame update
     void Start()
     {
         targetRB = GetComponent<Rigidbody>();
+        gameManager = GameObject.Find("Game Manager").GetComponent<GameManager>();
         targetRB.AddForce(randomForce(), ForceMode.Impulse);
         targetRB.AddTorque(randomTorque(), randomTorque(), randomTorque(), ForceMode.Impulse);
         transform.position = randomSpawnPos();
@@ -27,12 +32,18 @@ public class Target : MonoBehaviour
 
     private void OnMouseDown()
     {
-        Destroy(gameObject);
+        if (gameManager.isGameActive)
+        {
+            Destroy(gameObject);
+            gameManager.updateScore(pointValue);
+            Instantiate(explosionParticle, transform.position, explosionParticle.transform.rotation);
+        }
     }
 
     private void OnTriggerEnter(Collider other)
     {
         Destroy(gameObject);
+        if(!gameObject.CompareTag("Bad")) {gameManager.GameOver();}
     }
     
     Vector3 randomForce()

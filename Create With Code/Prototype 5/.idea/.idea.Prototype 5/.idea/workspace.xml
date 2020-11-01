@@ -20,11 +20,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9dbbf44c-ac38-49a3-87f3-b4fcaaa3b504" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Chalenge 2/Assets/Challenge 2/Challenge 2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../Chalenge 2/Assets/Challenge 2/Challenge 2.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Chalenge 2/Assets/Challenge 2/Prefabs/Dog.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/../Chalenge 2/Assets/Challenge 2/Prefabs/Dog.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Chalenge 2/Assets/Challenge 2/Scripts/DestroyOutOfBoundsX.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Chalenge 2/Assets/Challenge 2/Scripts/DestroyOutOfBoundsX.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Chalenge 2/Assets/Challenge 2/Scripts/SpawnManagerX.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Chalenge 2/Assets/Challenge 2/Scripts/SpawnManagerX.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Game 1/.idea/.idea.Game 1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Game 1/.idea/.idea.Game 1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Prototype 5/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Prototype 5/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Prototype 5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Prototype 5/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Course Library/Particles/Explosion_Blue.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Course Library/Particles/Explosion_Blue.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Course Library/Particles/Explosion_Brown.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Course Library/Particles/Explosion_Brown.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Course Library/Particles/Explosion_Red.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Course Library/Particles/Explosion_Red.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Bad 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Bad 1.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Good 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Good 1.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Good 2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Good 2.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Good 3.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Good 3.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Prototype 5.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Prototype 5.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Target.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Target.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +49,7 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/Target.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DifficultyButton.cs" />
       </list>
     </option>
   </component>
@@ -87,7 +98,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603859380764</updated>
-      <workItem from="1603859418070" duration="5697000" />
+      <workItem from="1603859418070" duration="7361000" />
+      <workItem from="1604014483431" duration="8624000" />
     </task>
     <servers />
   </component>
@@ -106,6 +118,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
