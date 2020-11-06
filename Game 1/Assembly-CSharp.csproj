@@ -58,9 +58,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scriptable Objects\GameAction.cs" />
      <Compile Include="Assets\Scriptable Objects\IntData.cs" />
      <Compile Include="Assets\Scripts\CameraScript.cs" />
+     <Compile Include="Assets\Scripts\HealthBarDisplay.cs" />
      <Compile Include="Assets\Scripts\Platformer.cs" />
+     <Compile Include="Assets\Scripts\Rainbow.cs" />
      <Compile Include="Assets\Scripts\TriggerEventsBehavior.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />

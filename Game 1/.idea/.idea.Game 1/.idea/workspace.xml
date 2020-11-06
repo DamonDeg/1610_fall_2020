@@ -20,14 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c8a7886-cb51-4da5-adec-11de62121574" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Create With Code/Challenge 5/.idea/.idea.Challenge 5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Create With Code/Challenge 5/.idea/.idea.Challenge 5/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Game 1/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game 1/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Game 1/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game 1/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Game 1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game 1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/DoTheFindTheYes.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/DoTheFindTheYes.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scriptable Objects/NotFood.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scriptable Objects/NotFood.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scriptable Objects/h.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scriptable Objects/h.asset.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +32,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/HealthBarDisplay.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -47,6 +46,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs" />
         <option value="$PROJECT_DIR$/Assets/Scriptable Objects/IntData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TriggerEventsBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scriptable Objects/TriggerAction.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scriptable Objects/GameAction.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/HealthBarDisplay.cs" />
       </list>
     </option>
   </component>
@@ -99,6 +101,8 @@
       <workItem from="1602111823626" duration="5003000" />
       <workItem from="1602222954340" duration="4324000" />
       <workItem from="1604457920404" duration="597000" />
+      <workItem from="1604476744098" duration="14000" />
+      <workItem from="1604529611510" duration="5919000" />
     </task>
     <servers />
   </component>
