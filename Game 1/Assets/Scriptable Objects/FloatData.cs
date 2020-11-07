@@ -5,10 +5,10 @@ using UnityEngine;
 using UnityEngine.UI;
 
 [CreateAssetMenu]
-public class IntData : ScriptableObject
+public class FloatData : ScriptableObject
 {
-    public int value;
-    public void UpdateValue(int number)
+    public float value;
+    public void UpdateValue(float number)
     {
 
         value+=number;
@@ -16,7 +16,7 @@ public class IntData : ScriptableObject
 
     }
     
-    public void updateBar(Image bar)
+    public void UpdateBar(Image bar)
     {
         bar.fillAmount = value;
     }

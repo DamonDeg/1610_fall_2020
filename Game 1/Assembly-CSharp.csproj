@@ -58,8 +58,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scriptable Objects\FloatData.cs" />
      <Compile Include="Assets\Scriptable Objects\Game Actions\GameAction.cs" />
-     <Compile Include="Assets\Scriptable Objects\IntData.cs" />
      <Compile Include="Assets\Scripts\ActionResponse.cs" />
      <Compile Include="Assets\Scripts\CameraScript.cs" />
      <Compile Include="Assets\Scripts\Platformer.cs" />
