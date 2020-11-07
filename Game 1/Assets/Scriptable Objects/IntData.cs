@@ -8,7 +8,6 @@ using UnityEngine.UI;
 public class IntData : ScriptableObject
 {
     public int value;
-    public Image bar;
     public void UpdateValue(int number)
     {
 
@@ -17,7 +16,7 @@ public class IntData : ScriptableObject
 
     }
     
-    public void updateBar()
+    public void updateBar(Image bar)
     {
         bar.fillAmount = value;
     }
