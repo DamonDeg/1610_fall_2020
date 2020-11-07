@@ -24,6 +24,13 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Game 1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game 1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/DoTheFindTheYes.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/DoTheFindTheYes.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scriptable Objects/Eat.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scriptable Objects/Eat.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scriptable Objects/GameAction.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scriptable Objects/GameAction.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scriptable Objects/IntData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scriptable Objects/IntData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HealthBarDisplay.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HealthBarDisplay.cs.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,9 +40,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/HealthBarDisplay.cs" root0="FORCE_HIGHLIGHTING" />
-  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -44,11 +48,13 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/CameraScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scriptable Objects/StatData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scriptable Objects/IntData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TriggerEventsBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scriptable Objects/TriggerAction.cs" />
         <option value="$PROJECT_DIR$/Assets/Scriptable Objects/GameAction.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HealthBarDisplay.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ActionHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ActionResponse.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scriptable Objects/IntData.cs" />
       </list>
     </option>
   </component>
@@ -103,6 +109,7 @@
       <workItem from="1604457920404" duration="597000" />
       <workItem from="1604476744098" duration="14000" />
       <workItem from="1604529611510" duration="5919000" />
+      <workItem from="1604726121688" duration="2170000" />
     </task>
     <servers />
   </component>

@@ -58,10 +58,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scriptable Objects\GameAction.cs" />
+     <Compile Include="Assets\Scriptable Objects\Game Actions\GameAction.cs" />
      <Compile Include="Assets\Scriptable Objects\IntData.cs" />
+     <Compile Include="Assets\Scripts\ActionResponse.cs" />
      <Compile Include="Assets\Scripts\CameraScript.cs" />
-     <Compile Include="Assets\Scripts\HealthBarDisplay.cs" />
      <Compile Include="Assets\Scripts\Platformer.cs" />
      <Compile Include="Assets\Scripts\Rainbow.cs" />
      <Compile Include="Assets\Scripts\TriggerEventsBehavior.cs" />

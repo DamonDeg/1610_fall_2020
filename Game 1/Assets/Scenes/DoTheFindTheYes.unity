@@ -1082,9 +1082,9 @@ MonoBehaviour:
   triggerEnterEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11400000, guid: 7620d53439729034ab5f8763181421f1, type: 2}
-        m_MethodName: UpdateValue
-        m_Mode: 3
+      - m_Target: {fileID: 11400000, guid: 18cd9f38bcdeb424f90d06983cef4624, type: 2}
+        m_MethodName: Raise
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1116,6 +1116,7 @@ GameObject:
   - component: {fileID: 1582295476}
   - component: {fileID: 1582295475}
   - component: {fileID: 1582295477}
+  - component: {fileID: 1582295478}
   m_Layer: 5
   m_Name: Health Bar
   m_TagString: Untagged
@@ -1191,6 +1192,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d67bcb6d70c413b4fae7c8e943392dd2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1582295478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1582295473}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ea178d890dffd14087f4924a1974e8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actionObj: {fileID: 11400000, guid: 18cd9f38bcdeb424f90d06983cef4624, type: 2}
+  handlerEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 7620d53439729034ab5f8763181421f1, type: 2}
+        m_MethodName: UpdateValue
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1721080869
 GameObject:
   m_ObjectHideFlags: 0
