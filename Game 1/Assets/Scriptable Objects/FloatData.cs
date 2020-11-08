@@ -15,6 +15,11 @@ public class FloatData : ScriptableObject
         Debug.Log(value);
 
     }
+
+    public void setValue(float number)
+    {
+        value = number;
+    }
     
     public void UpdateBar(Image bar)
     {
