@@ -20,13 +20,27 @@ public class Scripts : ScriptableObject
         h
     }
 
+    public weapons currentWeapon = weapons.sword;
+
     public void useWeapon()
     {
-        switch (weapons)
+        switch (currentWeapon)
         {
-            case weapons.acid:
+            case weapons.sword:
+                break;
+            case weapons.axe:
+                break;
+            case weapons.sheild:
+                break;
+            case weapons.locket:
+                break;
+            case weapons.spoon:
                 break;
             case weapons.acid:
+                break;
+            case weapons.grassClump:
+                break;
+            case weapons.h:
                 break;
             default:
                 throw new ArgumentOutOfRangeException();
