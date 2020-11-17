@@ -21,7 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c4f11e8a-c43d-4bdd-9657-7696accfc943" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +82,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605161747917</updated>
-      <workItem from="1605161818863" duration="2043000" />
+      <workItem from="1605161818863" duration="3743000" />
     </task>
     <servers />
   </component>
