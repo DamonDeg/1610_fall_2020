@@ -62,7 +62,9 @@
      <Compile Include="Assets\Scriptable Objects\FloatData.cs" />
      <Compile Include="Assets\Scripts\ActionResponse.cs" />
      <Compile Include="Assets\Scripts\CameraScript.cs" />
+     <Compile Include="Assets\Scripts\EnemyScript.cs" />
      <Compile Include="Assets\Scripts\GameManager.cs" />
+     <Compile Include="Assets\Scripts\NameTagFollow.cs" />
      <Compile Include="Assets\Scripts\Platformer.cs" />
      <Compile Include="Assets\Scripts\Rainbow.cs" />
      <Compile Include="Assets\Scripts\TriggerEventsBehavior.cs" />

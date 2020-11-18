@@ -9,6 +9,8 @@ public class Platformer : MonoBehaviour
     public float xInput, zInput, ySpeed;
     private Vector3 moveDirection = new Vector3();
     public AudioSource jumpSound;
+    public Vector3 hitForce = new Vector3();
+    
     // Start is called before the first frame update
     void Start()
     {

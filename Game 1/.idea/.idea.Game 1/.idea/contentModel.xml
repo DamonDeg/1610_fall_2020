@@ -16,7 +16,9 @@
           <e p="ActionResponse.cs" t="Include" />
           <e p="aiBehavior.cs" t="Include" />
           <e p="CameraScript.cs" t="Include" />
+          <e p="EnemyScript.cs" t="Include" />
           <e p="GameManager.cs" t="Include" />
+          <e p="NameTagFollow.cs" t="Include" />
           <e p="Platformer.cs" t="Include" />
           <e p="Rainbow.cs" t="Include" />
           <e p="TriggerEventsBehavior.cs" t="Include" />
