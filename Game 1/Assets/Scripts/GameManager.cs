@@ -6,19 +6,34 @@ using UnityEngine.Events;
 public class GameManager : MonoBehaviour
 {
     //global varuables
-    public float hungerTickTime;
+    public float hungerTickTime = 0.1f;
+    public float burgerDelay = 2.5f;
+    public float burgerStart = 5;
     
     //List of Events
     public UnityEvent hungerTick;
     public UnityEvent startGame;
+    public UnityEvent spawnBurger;
+    
     
     //Sets the clock for the hunger tick
     private IEnumerator HungerTickDown()
     {
         while (true)
         {
-            yield return new WaitForSeconds(0.1f);
+            yield return new WaitForSeconds(hungerTickTime);
             hungerTick.Invoke();
+        }
+    }
+    
+    //Burger Spawning
+    private IEnumerator BurgerSpawnTick()
+    {
+        yield return new WaitForSeconds(burgerStart);
+        while (true)
+        {
+            yield return new WaitForSeconds(burgerDelay);
+            spawnBurger.Invoke();
         }
     }
     
@@ -28,6 +43,7 @@ public class GameManager : MonoBehaviour
     {
         startGame.Invoke();
         StartCoroutine(HungerTickDown());
+        StartCoroutine(burgerDelay);
     }
 
     

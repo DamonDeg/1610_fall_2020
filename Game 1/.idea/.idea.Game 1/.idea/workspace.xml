@@ -20,11 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c8a7886-cb51-4da5-adec-11de62121574" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Game 1/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game 1/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Game 1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game 1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/DoTheFindTheYes.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/DoTheFindTheYes.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Platformer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Platformer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/DoTheFindTheYes/NavMesh.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/DoTheFindTheYes/NavMesh.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
@@ -56,12 +55,12 @@
         <option value="$PROJECT_DIR$/Assets/Scriptable Objects/IntData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/WorldClock.cs" />
         <option value="$PROJECT_DIR$/Assets/Scriptable Objects/FloatData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/aiBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TextGyro.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/NameTagFollow.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Platformer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
       </list>
     </option>
   </component>
@@ -119,7 +118,8 @@
       <workItem from="1604726121688" duration="5017000" />
       <workItem from="1604732162530" duration="530000" />
       <workItem from="1605592550519" duration="827000" />
-      <workItem from="1605669768569" duration="2559000" />
+      <workItem from="1605669768569" duration="2560000" />
+      <workItem from="1605849429891" duration="1900000" />
     </task>
     <servers />
   </component>
