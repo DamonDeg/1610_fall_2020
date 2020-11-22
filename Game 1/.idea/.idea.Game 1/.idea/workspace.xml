@@ -19,7 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c8a7886-cb51-4da5-adec-11de62121574" name="Default Changelist" comment="" />
+    <list default="true" id="1c8a7886-cb51-4da5-adec-11de62121574" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Game 1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game 1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -113,6 +116,7 @@
       <workItem from="1605592550519" duration="827000" />
       <workItem from="1605669768569" duration="2560000" />
       <workItem from="1605849429891" duration="2493000" />
+      <workItem from="1606022500502" duration="1308000" />
     </task>
     <servers />
   </component>

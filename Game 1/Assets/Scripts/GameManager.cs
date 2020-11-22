@@ -10,6 +10,11 @@ public class GameManager : MonoBehaviour
     public float burgerDelay = 2.5f;
     public float burgerStart = 5;
     
+    //Varuables and Game objects for Burger Spawning
+    public Transform player;
+    private Vector3 spawnPos = new Vector3();
+    public float spawnRange;
+
     //List of Events
     public UnityEvent hungerTick;
     public UnityEvent startGame;
@@ -43,7 +48,16 @@ public class GameManager : MonoBehaviour
     {
         startGame.Invoke();
         StartCoroutine(HungerTickDown());
-        StartCoroutine(burgerDelay);
+        StartCoroutine(BurgerSpawnTick());
+    }
+
+    public void placeBurger()
+    {
+        spawnPos.x = player.position.x + (Random.Range(-spawnRange, spawnRange));
+        spawnPos.y = player.position.y;
+        spawnPos.z = player.position.z + (Random.Range(-spawnRange, spawnRange));
+        
+        
     }
 
     
