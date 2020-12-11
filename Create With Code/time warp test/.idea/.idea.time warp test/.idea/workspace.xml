@@ -19,9 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e3cdb74-d894-4f0e-85f6-0e29b40184d1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../Game 1/.idea/.idea.Game 1/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Game 1/.idea/.idea.Game 1/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Game 1/.idea/.idea.Game 1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Game 1/.idea/.idea.Game 1/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="4f35ac5a-0573-4991-8bb7-9ce06dede60d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../New Unity Project (2)/.idea/.idea.New Unity Project (2)/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../New Unity Project (2)/.idea/.idea.New Unity Project (2)/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Unity Project (2)/.idea/.idea.New Unity Project (2)/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../New Unity Project (2)/.idea/.idea.New Unity Project (2)/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,12 +34,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Shaders/Cool blending thing.shader" />
-        <option value="$PROJECT_DIR$/Assets/Shaders/Cool Blending Thing.shader" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMove.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GlobalVars.cs" />
       </list>
     </option>
   </component>
-  <component name="ProjectId" id="1lPDnjr1QTZyJUKT3SrFV4Dmral" />
+  <component name="ProjectId" id="1lU0GrERPCA7oI4ZF0hMZyGiflz" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -56,15 +57,35 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="7e3cdb74-d894-4f0e-85f6-0e29b40184d1" name="Default Changelist" comment="" />
-      <created>1607490014972</created>
+      <changelist id="4f35ac5a-0573-4991-8bb7-9ce06dede60d" name="Default Changelist" comment="" />
+      <created>1607636285463</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1607490014972</updated>
-      <workItem from="1607490049606" duration="765000" />
+      <updated>1607636285463</updated>
+      <workItem from="1607636343527" duration="3091000" />
     </task>
     <servers />
   </component>
